@@ -24,8 +24,6 @@ a{
 }
 
 
-
-
 header {
 grid-area:header;
 margin: 1em;
@@ -71,8 +69,8 @@ h2{
 
 p{
     font-family: 'Nerko One', cursive;
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 5em;
+    margin-right: 5em;
 }
 
 main {
@@ -146,6 +144,24 @@ h2{
 }
 
 
+/* CV */
+h3{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Nerko One', cursive;
+    text-transform: uppercase;
+}
+
+li{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Nerko One', cursive;
+    overflow: hidden;
+}
+
+
+
+/* Footer */
 
 footer{
 	background-color: #4d4d00;
