@@ -9,7 +9,7 @@ body {
 	grid-template-columns: 40% 60%;
 	grid-template-rows: auto;
 	grid-template-areas: "header header"
-                         "main main"
+                         "aside main"
 						 "footer footer"
 }
 * {
@@ -57,44 +57,32 @@ nav a:hover{
 	color:#4d3900;
 }
 
-h2{
-  margin-bottom: 20px;
-  color: #cc6600;
-  font-family: 'Nerko One', cursive;
-  text-transform: uppercase;
-  font-size: 28px;
-  word-spacing: 8px;
-  letter-spacing: 5px;
-}
-
-p{
-    font-family: 'Nerko One', cursive;
-    margin-left: 5em;
-    margin-right: 5em;
-}
-
 main {
-	background-color: yellow;
-	color: black;
     grid-area: main;
+    margin: 1em;
     text-align: center;
-}
+    background-color: #feec04;
+    }
+    
 
-aside {
-	background-color: yellow;
-	color: black;
-    grid-area: aside;
-    text-align: center;
-}
 
-/* My Modules */
-.mymodules{
-    margin-top: 100px;
-}
+    aside {
+        grid-area: aside;
+        margin: 1em;
+        text-align: center;
+        background-color: #4d4d00;
+        }
+        
 
+
+
+
+
+/* Contact */
 
 h2{
     margin-bottom: 20px;
+    text-align: center;
     color: #cc6600;
     font-family: 'Nerko One', cursive;
     text-transform: uppercase;
@@ -104,50 +92,35 @@ h2{
 }
 
 
-.mymodules_wrapper{
-	display: flex;
-	flex-direction: column;
+
+form{
+    font-family: 'Nerko One', cursive; 
+    text-align: center;
+
 }
 
-.mymodules_wrapper .modules{
-	display: flex;
-	justify-content: space-between;
-}
 
-.mymodules_wrapper .modules-1 .modules{
-  margin-bottom: 20px;
+input{
+    margin-bottom: 15px;
   
-}
+  }
 
-.mymodules_wrapper .modules-2 .modules{
-     margin-right: 20px;
-     margin-bottom: 100px;
-}
-
-.mymodules_wrapper .modules_name{
-	width: 30%;
-	height: auto;
-	cursor: pointer;
-	overflow: hidden;
-	position: relative;
-}
-
-.mymodules_wrapper .modules_name img{
-	display: block;
-	width: 100%;
-	height: auto;
-	transition: all 0.10s ease;
-}
-
-.mymodules_wrapper .modules_name :hover img{
-	transform: scale(1.1);
-}
+textarea{
+    width: 250px;
+    padding: 12px 20px;
+    height: 80px;
+    resize: none;
+    border: 1px solid #ccc;
+  
+  }
 
 
 
 
 
-/* Footer */
+
+
+        /* Footer */
 
 footer{
 	background-color: #4d4d00;
@@ -155,6 +128,10 @@ footer{
 	grid-area: footer;
 	padding: 1em;
 }
+
+
+
+
 
 
 footer{
