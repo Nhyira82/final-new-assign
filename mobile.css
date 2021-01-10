@@ -37,7 +37,7 @@ nav {
 		overflow: hidden;
         background-color: #4d3900;
         font-family: 'Nerko One', cursive;
-		display: grid;
+		display: inline;
 		grid-template-columns: 20% 20% 20% 20% 20%;
 	}
 
@@ -52,6 +52,7 @@ nav a {
 	text-decoration: none;
 
 }
+
 
 nav a:hover{
 	background-color: #feec04;
@@ -70,8 +71,7 @@ h2{
 
 p{
     font-family: 'Nerko One', cursive;
-    margin-left: 5em;
-    margin-right: 5em;
+   
 }
 
 

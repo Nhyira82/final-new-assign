@@ -6,7 +6,7 @@
     <title>Nhyira's Blog ~ Contact Me </title>
     <link rel ="stylesheet" href="mystyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-
+    <link rel ="stylesheet" href="mobile.css" media="screen and (min-width:300px) and (max-width:999px)"/>
 
 </head>
 
@@ -23,8 +23,8 @@
 <a href="index.html"> Home</a>
 <a href="my_modules.html"> Portfolio</a>
 <a href="sitereport.html"> Site Report</a>
-<a href="contactme.html"> Contact</a>
 <a href="CV.html"> CV</a>
+<a href="contactme.html"> Contact</a>
 </nav>
 
 </header>
@@ -37,14 +37,12 @@
 
     <h2>Contact Me </h2>
 
-    <form action="mailto:nhyira.akosah20@my.northmapton.ac.uk " method="POST">
-        <label for="fname"> Name: </label></br>
-        <input type="text" id="fname" name="fname" value="  "><br> 
-        <label for="email"> Email: </label></br>
-        <input type="text" id="email" name="email" value="  "><br><br>
-        <textarea placeholder="Message"></textarea>
-
-        <input type="submit" name="submit" class="send-btn" value="submit">
+    
+    <form action="mailto:nhyira.akosah20@my.northampton.ac.uk " method="POST">
+            <input type="text" none="none" class="text-box" placeholder="Your Name" required><br>
+            <input type="text" none="none" class="text-box" placeholder="Your Email" required><br>
+            <textarea name="message" rows="5" placeholder="Your Messsage" required></textarea><br>
+            <input type="submit" name="submit" class="send-btn" value="Submit">
  
     </form>
 
@@ -57,7 +55,12 @@
 
 <aside>
 
-
+    
+            <i class="fas fa-map-marker-alt"></i> <p>66 Meady, Northampton, NN69QC.</p> </br>
+            <i class="fas fa-envelope"></i> <p>nhyira.akosah20@my.northampton.ac.uk</p></br>
+            <i class="fas fa-phone"></i> <p>074967896758</p></br>
+            <i class="fas fa-clock"></i> <p>Mon - Fri 10:00am to 12pm</p></br>
+        
     
 </aside>
 

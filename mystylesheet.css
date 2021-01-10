@@ -81,8 +81,16 @@ main {
 h3{
     text-align: center;
     font-weight: bold;
+    color: #cc6600;
     font-family: 'Nerko One', cursive;
     text-transform: uppercase;
+}
+
+h5{
+    font-family: 'Nerko One', cursive; 
+    text-align: center;
+    font-weight: bold;
+     
 }
 
 li{

@@ -91,54 +91,58 @@ h2{
     letter-spacing: 5px;
 }
 
-
-
-form{
-    font-family: 'Nerko One', cursive; 
-    text-align: center;
-    color: #000;
-
+p{
+    font-family: 'Nerko One', cursive;
+    
 }
+
+
+
+   i{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+  }
 
 
 input{
-    font-family: 'Nerko One', cursive; 
-  background: #000;
-  color: #000;
-  border: none;
-  padding: 12px;
-  font-size: 15px;
-  border-radius: 5px;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
-  opacity: 0.4;
-  }
-
-
-textarea{
-    font-family: 'Nerko One', cursive; 
+    font-family: 'Nerko One', cursive;
+    max-width: 600px;
+    line-height: 35px;
+    padding-left: 50px;
+    font-size: 18px;
     background: #000;
-    color: #000;
+    color: #4d3900;
     border: none;
-    width: calc(50% - 10px);
-    height: 50px;
+    width: 50%;
     padding: 12px;
-    font-size: 15px;
-    border-radius: 5px;
+    resize: vertical;
+    border-radius: 1px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
-    opacity: 0.4;
-  
+    opacity: 0.7;
   }
 
-send-btn{
+
+  textarea{
+    font-family: 'Nerko One', cursive;
     background: #000;
-    color: #000;
-}
-
-
-
-
+    color: #4d3900;
+    border: none;
+    width: 50%;
+    padding: 12px;
+    font-size: 18px;
+    min-height: 200px;
+    max-height: 400px;
+    resize: vertical;
+    border-radius: 1px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    opacity: 0.7;
+  }
+  
+  
 
         /* Footer */
 
