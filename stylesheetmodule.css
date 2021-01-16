@@ -6,10 +6,10 @@ body {
 	padding: 1em;
 	font-family:'Courier New', Courier, monospace arial;
 	display: grid;
-	grid-template-columns: 40% 60%;
+	grid-template-columns: 50% 50%;
 	grid-template-rows: auto;
 	grid-template-areas: "header header"
-                         "main main"
+                         "main aside"
 						 "footer footer"
 }
 * {
@@ -57,9 +57,6 @@ nav a:hover{
 	color:#4d3900;
 }
 
-
-
-
 h2{
   margin-bottom: 20px;
   color: #cc6600;
@@ -80,71 +77,24 @@ main {
 	background-color: yellow;
 	color: black;
     grid-area: main;
+    margin: 1em;
     text-align: center;
+    margin-bottom: 2em;
 }
 
 aside {
-	background-color: yellow;
+	background-color: #4d4d00;
 	color: black;
     grid-area: aside;
+    margin: 1em;
     text-align: center;
-}
-
-/* My Modules */
-.mymodules{
-    margin-top: 100px;
+    margin-bottom: 2em;
 }
 
 
-h2{
-    margin-bottom: 20px;
-    color: #cc6600;
-    font-family: 'Nerko One', cursive;
-    text-transform: uppercase;
-    font-size: 28px;
-    word-spacing: 8px;
-    letter-spacing: 5px;
-}
 
 
-.mymodules_wrapper{
-	display: flex;
-	flex-direction: column;
-}
 
-.mymodules_wrapper .modules{
-	display: flex;
-	justify-content: space-between;
-}
-
-.mymodules_wrapper .modules-1 .modules{
-  margin-bottom: 20px;
-  
-}
-
-.mymodules_wrapper .modules-2 .modules{
-     margin-right: 20px;
-     margin-bottom: 100px;
-}
-
-.mymodules_wrapper .modules_name{
-	width: 30%;
-	height: auto;
-	cursor: pointer;
-	overflow: hidden;
-	position: relative;
-}
-
-.mymodules_wrapper .modules_name img{
-	display: block;
-	width: 100%;
-	height: auto;
-	transition: all 0.10s ease;
-}
-
-.mymodules_wrapper .modules_name :hover img{
-	transform: scale(1.1);
-}
 
 
 
@@ -168,6 +118,7 @@ footer{
     width: 100%;
     text-align: center;
     padding: 10px 0;
+    
   }
   
   footer p{
