@@ -4,7 +4,6 @@ html {
 body {
 	background-color:  #808000;
 	padding: 1em;
-	font-family:'Courier New', Courier, monospace arial;
 	display: grid;
 	grid-template-columns: 25% 50% 25%;
 	grid-template-rows: auto;
@@ -43,8 +42,7 @@ nav {
 
 
 
-nav a {
-	float: center;
+nav a { 
 	display: block;
 	color:#1a1a00;
 	text-align: center;
